@@ -19,12 +19,12 @@ O **Coffee Shop** é uma simulação de website de uma cafeteria fictícia. O fo
 - **HTML5**: Para a estruturação do conteúdo.
 - **CSS3**: Personalizações adicionais e ajustes visuais.
 
-### 🖼️ Screenshots
+### 🖼️ Como ficou
 
-![Screenshot 1](path/to/screenshot1.png)
-*Página inicial com o banner e uma apresentação da cafeteria.*
+![Página Inicial](css_coffee/assets/img/banner.png)
+*Página inicial com o banner e apresentação da cafeteria.*
 
-![Screenshot 2](path/to/screenshot2.png)
+![Cardápio](css_coffee/assets/img/banner2.png)
 *Exibição do cardápio com os produtos disponíveis.*
 
 ### 📂 Como Executar o Projeto
