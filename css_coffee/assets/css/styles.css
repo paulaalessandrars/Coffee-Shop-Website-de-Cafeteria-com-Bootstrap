@@ -1,0 +1,94 @@
+/* Ajuste pra deixar os links dar cor certa no menu sem utilizar tantas linhas de estilo*/
+:root {
+   --bs-link-color: #8a5314; /* Cor do link padrão */
+   --bs-link-hover-color: #5e350f; /* Cor do link ao passar o mouse */
+}
+
+/* estilização dos meus botoes da nav bar */
+.btn {
+    --bs-btn-bg: #8a5314; /* Cor de fundo do botao padrão */
+    --bs-btn-border-color: #9b5f1b; /* Cor da borda do botao padrão */
+    --bs-btn-hover-bg: #5e350f; /* Cor de fundo do botao padrão ao passar o mouse */
+    --bs-btn-hover-border-color: #733910ea; /* Cor da borda do botao padrão ao passar o mouse*/
+    --bs-btn-active-bg: #733910ea;  /* Cor do botao quando ativo */
+}
+
+/*  essa margem é pra o navbar nao ficar em cima no meu carousel */
+main {
+    margin-top: 5rem;
+}
+
+/* estilização para deixar margem ao escrolar pelas seções, dessa forma ao utilizar os links internos (ancoras) nao fica em cima da informação, nao fica cortando a informação inicial */
+section {
+    scroll-margin-top: 6rem;
+}
+
+/* Tamanho do logotipo */
+.navbar-brand img {
+    width: 50px;
+}
+
+
+/* Tamanho do carousel */
+
+.carousel-item {
+    height: 550px;
+}
+
+/* Tratando as imagens */
+.carousel-item img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* para facilitar a leitura do texto no carousel, fazer um efeito degrade... que deixa mais escuro de baixo para cima */
+.carousel-item::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(transparent, rgb(31,31,31));
+    position: absolute;
+}
+
+/* tratamento imagens menu */
+.card-menu img {
+    height: 300px;
+    object-fit: cover; /* pra nao ficar distorcido a imagem */
+}
+
+
+
+
+/* pra pegar os ids dentro da classe nav-link sem alterar tudo que estiver em nav-link, porque o nav bar da barra de navegação também esta nessa mesma classe dentro do bootstrap */
+/*
+
+#expresso.nav-link,
+#cappuccino.nav-link,
+#iced-coffee.nav-link,
+#specials.nav-link {
+    --bs-nav-link-color: #894f0c; /* Cor do texto padrão */
+   /* --bs-nav-link-hover-bg: #5e350f; /* Cor de fundo ao passar o mouse */
+   /* --bs-nav-link-hover-color: #8a5314; /* Cor do texto ao passar o mouse */
+   /* --bs-nav-link-active-bg: #733910ea; /* Cor de fundo quando ativo */
+   /* --bs-nav-link-active-color: #8a5314; /* Cor do texto quando ativo */
+/* } */
+
+
+
+/* mesma estilização so que dentro do css */
+
+/* .nav-link {
+    color: #9b5f1b;  
+    border-color: #9b5f1b;     
+}
+
+.nav-link:hover {
+    border-color: #733910ea;
+    color: #5e350f;         
+}
+
+.nav-link.active {
+    border-color: #9b5f1b;   
+    color: #9b5f1b;        
+} */
