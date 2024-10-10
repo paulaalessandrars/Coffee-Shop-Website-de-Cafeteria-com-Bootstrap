@@ -1,4 +1,4 @@
-# Coffee Shop - Website com Bootstrap
+# ☕ Coffee Shop - Website com Bootstrap 
 
 Bem-vindo ao repositório do **Coffee Shop**, um projeto de desenvolvimento de um site de cafeteria simples e elegante, totalmente construído utilizando o framework **Bootstrap**. Este projeto foi pensado para ser responsivo, acessível e de fácil navegação, oferecendo uma experiência agradável aos usuários, independentemente do dispositivo que utilizam.
 
@@ -11,7 +11,7 @@ O **Coffee Shop** é uma simulação de website de uma cafeteria fictícia. O fo
 - **Página Inicial:** Um banner com a imagem da cafeteria, barra de navegação e breve apresentação.
 - **Cardápio:** Exibição de produtos com fotos e descrições.
 - **Seção Sobre Nós:** História da cafeteria e valores.
-- **Contato:** Formulário para contato e informações de localização.
+- **Contato:** Informações de contato e localização.
 
 ### 📦 Tecnologias Utilizadas
 
@@ -31,14 +31,13 @@ O **Coffee Shop** é uma simulação de website de uma cafeteria fictícia. O fo
 
 1. Clone o repositório:
     ```bash
-    git clone https://github.com/seu-usuario/YouTube-List.git
+    git clone https://github.com/seu-usuario/Coffee-Shop-Website-de-Cafeteria-com-Bootstrap
     ```
 2. Navegue até a pasta do projeto:
     ```bash
-    cd YouTube-List
+    cd Coffee-Shop-Website-de-Cafeteria-com-Bootstrap
     ```
 3. Abra o arquivo `index.html` no seu navegador favorito e curta o visual!
-CoffeeShop.git
 
 ### 🤝 Contribuição
 
@@ -68,4 +67,3 @@ Curtiu? Dá aquele ⭐ no repositório e vamos criar algo incrível juntos!
 ---
 
 🚀 **Mantenha-se conectado!** Fique de olho nos updates e novas funcionalidades que estão por vir.
-
